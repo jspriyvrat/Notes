@@ -30,6 +30,7 @@
         android:layout_marginRight="30dp"
         android:text="@string/submit"
         android:textSize="20dp"
+        android:onClick="submitData"
         app:layout_constraintTop_toBottomOf="@+id/notebox"
         app:layout_constraintStart_toStartOf="parent"
        />

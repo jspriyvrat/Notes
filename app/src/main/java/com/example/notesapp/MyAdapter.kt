@@ -34,7 +34,7 @@ class MyAdapter(val context: Context,val listener:IvInterface): RecyclerView.Ada
     override fun getItemCount(): Int {
        return  allNotes.size
     }
-    fun updateList(newList:ArrayList<Notes>)
+    fun updateList(newList:List<Notes>)
     {
         allNotes.clear()
         allNotes.addAll(newList)
